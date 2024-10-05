@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class JuegoAdivinanza {
+    public static void main(String[] args) {
+        System.out.println ("escriba el numero");
+        int numero = scanner.next.Int();
+        int contador =0;
+        while (numero>=10) {
+            int resultado = numero%10;
+            contador =+ resultado;
+        }     
+        System.out.println ("la suma de los digitos es" + (contador + 1));
+    }
+}

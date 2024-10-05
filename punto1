@@ -1,7 +1,5 @@
-# parcial01-192406
-// punto 1:
 import java.util.Scanner;
-public class palindromo {
+public class JuegoAdivinanza {
     public static void main(String[] args) {
         boolean palindromo = true;
         Scanner scanner = new Scanner (System.in);
@@ -11,13 +9,13 @@ public class palindromo {
         String reverso = new StringBuilder(palindromo).reverse().toString();
       if (frase.equals(reverso)){
 
-        System.out.println (" es una palindromo")
-      } else {System.out.println (" es una palindromo")
+        System.out.println (" es una palindromo");
+      } else {System.out.println (" es una palindromo");
 
       }
 
 
     }
 }
-
-punto 2:
+//
+ 
